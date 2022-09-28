@@ -1,0 +1,27 @@
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+p{
+    color: black;
+    font-size: medium;
+    text-align: left;
+}
+
+ul{
+    align-items: flex-start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+}
+body{
+    background-color: azure;
+    font-size: medium;
+}
+div{
+    padding: 5pc;
+    background-origin: padding-box;
+}
+h6{
+    font-style: italic;
+    font-size: medium;
+}
