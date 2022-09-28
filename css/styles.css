@@ -57,6 +57,7 @@ img{
     max-height: 40%;
     min-width: 40%;
     max-width: 60%;
+    float: left;
 }
 .nav{
     width: 100%;
@@ -67,3 +68,17 @@ img{
     border: 1pt;
     border-color: beige;
 }
+
+@media screen and (min-width: 480px) and (max-width: 760px) {
+    body{
+        background-color: burlywood;
+        font-size: larger;
+    }  
+}
+
+@media screen and (min-width: 761px) {
+    body {
+      background-color: yellowgreen;
+      font-size: medium;
+    }
+  }
